@@ -6,6 +6,7 @@ Read and review awesome deep learning papers.
 
 Paper list
 
+## Season 0
 1. [Convolutional Neural Networks for Sentence Classification](http://emnlp2014.org/papers/pdf/EMNLP2014181.pdf) - Yoon Kim
     - reviewed by [Donghwa Kim](https://github.com/Donghwa-KIM)
 2. [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks) - Alex Krizhevsky
