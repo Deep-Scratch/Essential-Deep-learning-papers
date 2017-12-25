@@ -6,8 +6,10 @@ Read and review awesome deep learning papers.
 
 Paper list
 
-## Season 0 
+## Season 0 : Basic
+
 ***2017. 07. 08 ~ 2017. 09. 23***
+
 1. [Convolutional Neural Networks for Sentence Classification](http://emnlp2014.org/papers/pdf/EMNLP2014181.pdf) - Yoon Kim
     - reviewed by [Donghwa Kim](https://github.com/Donghwa-KIM)
 2. [ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks) - Alex Krizhevsky et al.
@@ -25,9 +27,10 @@ Paper list
 8. [GoogLeNet: Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842) - Christian Szegedy et al.
     - reviewed by [Boseop Kim](https://github.com/boseop)
     
-    
 ## Season 1 : Object Detection 
+
 ***2017. 09. 23 ~ 2017. 12. 09***
+
 1. [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524) - Ross Girshick et al.
     - reviewed by [Gyubin Son](https://github.com/gyubin)
 2. [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/abs/1406.4729) - Kaiming He et al.
@@ -46,9 +49,10 @@ Paper list
 7. [SSD: Single Shot MultiBox Detector](https://arxiv.org/abs/1512.02325) - Wei Liu et al.
     - reviewed by [Wanjae Choi](https://github.com/mimi1942)
 
-
 ## Season 2 : Semantic Segmentation ### 
+
 ***2017. 12. 09 ~ 2018. 01. 06***
+
 1. [Fully Convolutional Networks for Semantic Segmentation](https://arxiv.org/abs/1411.4038) - Jonathan Long et al.
     - reviewed by [Heekyung Park](https://github.com/HeeKyung-Park)
 2. [Learning Deconvolution Network for Semantic Segmentation](https://arxiv.org/abs/1505.04366) - Hyeonwoo Noh et al.
