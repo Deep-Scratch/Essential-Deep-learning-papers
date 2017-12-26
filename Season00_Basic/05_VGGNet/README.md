@@ -1,6 +1,6 @@
-# S00-05. VGGNet, VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION
+# S00-05. VGGNet
 
-[VGGNet](https://arxiv.org/abs/1409.1556) by Karen Simonyan, Andrew Zisserman
+[VGGNet: VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION](https://arxiv.org/abs/1409.1556) by Karen Simonyan, Andrew Zisserman
 
 **reviewd by [Gyubin Son](github.com/gyubin)**
 
