@@ -2,7 +2,7 @@
 
 [AlexNet: ImageNet Classification with Deep Convolutional Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks) by Alex Krizhevsky et al.
 
-**reviewd by [Heekyung Park](https://github.com/HeeKyung-Park)**
+**reviewed by [Heekyung Park](https://github.com/HeeKyung-Park)**
 
 ## 1. 요약
 

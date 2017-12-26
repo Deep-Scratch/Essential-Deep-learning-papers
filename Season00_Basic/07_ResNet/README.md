@@ -2,7 +2,7 @@
 
 [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) by Kaiming He, et al.
 
-**reviewd by [Seongwon Moon](https://github.com/Moonswng)**
+**reviewed by [Seongwon Moon](https://github.com/Moonswng)**
 
 ## 1. 요약
 

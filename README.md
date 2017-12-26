@@ -34,8 +34,8 @@ Paper list
 1. [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524) - Ross Girshick et al.
     - reviewed by [Gyubin Son](https://github.com/gyubin)
 2. [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/abs/1406.4729) - Kaiming He et al.
-    - reviewd by [Seongwon Moon](https://github.com/Moonswng)
-    - reviewd by [Boseop Kim](https://github.com/aisolab)
+    - reviewed by [Seongwon Moon](https://github.com/Moonswng)
+    - reviewed by [Boseop Kim](https://github.com/aisolab)
 3. [Fast R-CNN](https://arxiv.org/abs/1504.08083) - Ross Girshick
     - reviewed by [Daehoon Gwak](https://github.com/eogns282)
     - reviewed by [Boseop Kim](https://github.com/aisolab)
@@ -60,9 +60,9 @@ Paper list
 3. [Selective Search for Object Recognition](https://ivi.fnwi.uva.nl/isis/publications/bibtexbrowser.php?key=UijlingsIJCV2013&bib=all.bib) - J.R.R. Uijlings et al.
     - reviewed by [Donghwa Kim](https://github.com/Donghwa-KIM)
 4. [SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation](https://arxiv.org/abs/1511.00561) - Vijay Badrinarayanan et al.
-    - reviewed by Donguk Joo
+    - reviewed by [Donguk Ju](https://github.com/ehddnr747)
 5. [DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs](https://arxiv.org/abs/1606.00915) - Liang-Chieh Chen et al.
-    - reviewed by Hyerin Lim
+    - reviewed by [Hyerin Lim](https://github.com/)
 6. [Pyramid Scene Parsing Network](https://arxiv.org/abs/1612.01105) - Hengshuang Zhao et al.
     - reviewed by [Daehoon Gwak](https://github.com/eogns282)
 7. [Mask R-CNN](https://arxiv.org/abs/1703.06870) - Kaiming He et al.

@@ -2,7 +2,7 @@
 
 [R-CNN: Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524) by Ross Girshick, et al.
 
-**reviewd by [Gyubin Son](https://github.com/gyubin)**
+**reviewed by [Gyubin Son](https://github.com/gyubin)**
 
 ## 1. 요약
 

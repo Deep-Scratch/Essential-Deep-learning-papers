@@ -2,7 +2,7 @@
 
 [Fast R-CNN](https://arxiv.org/abs/1504.08083) by Ross Girshick
 
-**reviewd by [Daehoon Gwak](https://github.com/eogns282), [Boseop Kim](https://github.com/aisolab)**
+**reviewed by [Daehoon Gwak](https://github.com/eogns282), [Boseop Kim](https://github.com/aisolab)**
 
 ## 1. 요약
 

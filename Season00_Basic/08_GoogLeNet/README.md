@@ -2,7 +2,7 @@
 
 [GoogLeNet: Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842) - Christian Szegedy, et al.
 
-**reviewd by [Boseop Kim](https://github.com/aisolab)**
+**reviewed by [Boseop Kim](https://github.com/aisolab)**
 
 ## 1. 요약
 
