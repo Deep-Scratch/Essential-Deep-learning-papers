@@ -1,5 +1,9 @@
-# S01-06. You Only Look Once: Unified, Real-Time Object Detection
+# S01-06. YOLO
 
-[YOLO](https://arxiv.org/abs/1506.02640) by Joseph Redmon, et al.
+[YOLO: You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640) by Joseph Redmon, et al.
 
-reviewd by [Gyubin Son](github.com/gyubin)
+**reviewd by [Gyubin Son](https://github.com/gyubin)**
+
+## 1. 요약
+
+TBD
