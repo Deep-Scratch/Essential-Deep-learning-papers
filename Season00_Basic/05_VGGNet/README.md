@@ -2,7 +2,7 @@
 
 [VGGNet: VERY DEEP CONVOLUTIONAL NETWORKS FOR LARGE-SCALE IMAGE RECOGNITION](https://arxiv.org/abs/1409.1556) by Karen Simonyan, et al.
 
-**reviewd by [Gyubin Son](github.com/gyubin)**
+**reviewd by [Gyubin Son](https://github.com/gyubin)**
 
 ## 1. 요약
 
