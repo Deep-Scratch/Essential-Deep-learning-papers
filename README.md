@@ -25,7 +25,7 @@ Paper list
 7. [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385) - Kaiming He et al.
     - reviewed by [Seongwon Moon](https://github.com/Moonswng)
 8. [GoogLeNet: Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842) - Christian Szegedy et al.
-    - reviewed by [Boseop Kim](https://github.com/boseop)
+    - reviewed by [Boseop Kim](https://github.com/aisolab)
     
 ## Season 1 : Object Detection 
 
@@ -35,13 +35,13 @@ Paper list
     - reviewed by [Gyubin Son](https://github.com/gyubin)
 2. [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/abs/1406.4729) - Kaiming He et al.
     - reviewd by [Seongwon Moon](https://github.com/Moonswng)
-    - reviewd by [Boseop Kim](https://github.com/boseop)
+    - reviewd by [Boseop Kim](https://github.com/aisolab)
 3. [Fast R-CNN](https://arxiv.org/abs/1504.08083) - Ross Girshick
     - reviewed by [Daehoon Gwak](https://github.com/eogns282)
-    - reviewed by [Boseop Kim](https://github.com/boseop)
+    - reviewed by [Boseop Kim](https://github.com/aisolab)
 4. [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497) - Shaoqing Ren et al.
     - reviewed by [Daehoon Gwak](https://github.com/eogns282)
-    - reviewed by [Boseop Kim](https://github.com/boseop)
+    - reviewed by [Boseop Kim](https://github.com/aisolab)
 5. (Break time) Build a Blog with Jekyll
     - reviewed by [Gyubin Son](https://github.com/gyubin)
 6. [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640) - Joseph Redmon et al.
@@ -68,7 +68,7 @@ Paper list
 7. [Mask R-CNN](https://arxiv.org/abs/1703.06870) - Kaiming He et al.
     - reviewed by [Donghwa Kim](https://github.com/Donghwa-KIM)
 8. [Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data](http://repository.upenn.edu/cgi/viewcontent.cgi?article=1162&context=cis_papers) - John Lafferty et al.
-    - reviewed by [Boseop Kim](https://github.com/boseop)
+    - reviewed by [Boseop Kim](https://github.com/aisolab)
 9. [Deformable Convolutional Networks](https://arxiv.org/abs/1703.06211) - Jifeng Dai et al.
     - reviewed by [Seongwon Moon](https://github.com/Moonswng)
 10. [U-Net: Convolutional Networks for Biomedical Image Segmentation](https://arxiv.org/abs/1505.04597) - Olaf Ronneberger et al.
