@@ -42,7 +42,7 @@ Paper list
 4. [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](https://arxiv.org/abs/1506.01497) - Shaoqing Ren et al.
     - reviewed by [Daehoon Gwak](https://github.com/eogns282)
     - reviewed by [Boseop Kim](https://github.com/boseop)
-5. Build a Blog with Jekyll
+5. (Break time) Build a Blog with Jekyll
     - reviewed by [Gyubin Son](https://github.com/gyubin)
 6. [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/abs/1506.02640) - Joseph Redmon et al.
     - reviewed by [Gyubin Son](https://github.com/gyubin)
@@ -63,7 +63,6 @@ Paper list
     - reviewed by Donguk Joo
 5. [DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs](https://arxiv.org/abs/1606.00915) - Liang-Chieh Chen et al.
     - reviewed by Hyerin Lim
-    - reviewed by [Boseop Kim](https://github.com/boseop)
 6. [Pyramid Scene Parsing Network](https://arxiv.org/abs/1612.01105) - Hengshuang Zhao et al.
     - reviewed by [Daehoon Gwak](https://github.com/eogns282)
 7. [Mask R-CNN](https://arxiv.org/abs/1703.06870) - Kaiming He et al.
