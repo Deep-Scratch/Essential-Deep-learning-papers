@@ -2,6 +2,8 @@
 
 Papers about basic architecture.
 
+Member(8): [Boseop Kim](https://github.com/aisolab), [Daehoon Gwak](https://github.com/eogns282), [Donghwa Kim](https://github.com/Donghwa-KIM), [Gyubin Son](https://github.com/gyubin), [Heejung Choi](https://github.com/h-doong), [Heekyung Park](https://github.com/HeeKyung-Park), [Seongwon Moon](https://github.com/Moonswng), [Wanjae Choi](https://github.com/mimi1942)
+
 ---
 
 ***2017. 07. 08 ~ 2017. 09. 23***

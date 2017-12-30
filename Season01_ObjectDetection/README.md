@@ -2,6 +2,8 @@
 
 Papers about object detection.
 
+Member(10): [Boseop Kim](https://github.com/aisolab), [Daehoon Gwak](https://github.com/eogns282), [Donghwa Kim](https://github.com/Donghwa-KIM), [Donguk Ju](https://github.com/ehddnr747), [Gyubin Son](https://github.com/gyubin), [Heejung Choi](https://github.com/h-doong), [Heekyung Park](https://github.com/HeeKyung-Park), [Hyerin Lim](https://github.com/), [Seongwon Moon](https://github.com/Moonswng), [Wanjae Choi](https://github.com/mimi1942)
+
 ---
 
 ***2017. 09. 23 ~ 2017. 12. 09***
