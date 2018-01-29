@@ -43,7 +43,6 @@ ILSVRC에서는 top-1, top-5 에러를 평가 척도로 사용한다.
 - top-1 : 이미지 하나에 가장 큰 확률을 갖은 예측 label과 실제 label이 맞으면 정답, 이외에는 오답
 - top-5 : 이미지 하나에 가장 큰 5개의 확률을 갖은 예측 label에 실제 label이 포함되면 정답, 이외에는 오답
 
-<br/>
 ![figure3](https://i.imgur.com/B05g6Kt.png)
 ImageNet은 여러 스케일의 이미지로 구성되어 있기 때문에 다음과 같은 방식으로 이미지를 256×256 사이즈로 고정하였다.
 1. 이미지에서 짧은 면을 256으로 사이즈를 조정한다.
@@ -114,4 +113,22 @@ Alexnet은 6천만개의 parameter로 구성되어 있기 때문에, overfitting
 
 #### 4.2 Dropout
 ![figure16](https://i.imgur.com/cORdgUk.png)
+
 0.5의 확률로 뉴런을 0으로 셋팅하는 dropout을 시행하여 학습한다. test할때는 모든 뉴런을 사용하지만, 각 출력값에 0.5를 곱하여 사용.
+
+
+### 5. Details of learning
+- 128 배치 사이즈
+- Stochastic gradient descent, 0.9 momentum, 0.0005 weight decay
+- zero-mean Gaussain(0.01 standard deviation) 초기화
+- 2, 4, 5번째의 convolutional layer와 fully-connected layer에서는 bias를 1로 초기화(나머지는 0)는 학습을 가속화한다.(ReLU의 양수부분을 줌으로써)
+- 초기 learning rate은 0.01이고, validation error가 줄어들지 않는다면 10으로 나누어 준다.
+- NVIDIA GTX 580 3GB GPU 사용
+
+
+### 6. Results
+![figure17](https://i.imgur.com/vJVgsFj.png)
+: ILSVRC-2010, 2012에서 모두 우수한 퍼포먼스를 보여준다.  
+
+### 7. Discussion
+- 중간의 hidden layer가 하나라도 빠지면, top-1 에러가 2% 상승한다. 즉, CNN에서의 depth는 매우 중요하다.
