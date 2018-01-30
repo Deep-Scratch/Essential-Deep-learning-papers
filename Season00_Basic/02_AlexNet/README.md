@@ -28,6 +28,7 @@
 </p>
 
 ImageNet LSVRC-2010 학습, 테스트 결과 top-1, top-5 에러가 각각 37.5%와 17.0%로 이전 최신의 방법보다 좋은 퍼포먼스를 보였다. 사용된 인공신경망은 5개의 convolutional layer와 3개의 fully-connected layer로 구성되어 있으며, 6천만개의 parameter와 65만개의 neuron이 사용되었다. 오버피팅을 줄이기 위해 dropout을 사용하였고, 그 효과가 큼을 증명했다. ImageNet ILSVRC-2012에서 top-5 에러가 15.3%를 달성하며 2등과 꽤 큰 차이를 가졌다. 
+(위의 그림은 LSVRC-2010의 에러율로 supervision이 AlexNet이다.)
 
 <br/>
 
@@ -52,6 +53,8 @@ ImageNet은 22,000 카테고리로 구성된 1,500만개의 고해상도 이미�
 ILSVRC에서는 top-1, top-5 에러를 평가 척도로 사용한다. <br/>
 - top-1 : 이미지 하나에 가장 큰 확률을 갖은 예측 label과 실제 label이 맞으면 정답, 이외에는 오답 <br/>
 - top-5 : 이미지 하나에 가장 큰 5개의 확률을 갖은 예측 label에 실제 label이 포함되면 정답, 이외에는 오답 <br/>
+
+<br/>
 
 <p align="center">
   <img width="250" src="https://imgur.com/B05g6Kt.png">
