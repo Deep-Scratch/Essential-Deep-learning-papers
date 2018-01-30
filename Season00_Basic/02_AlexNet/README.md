@@ -164,12 +164,12 @@ Alexnet은 6천만개의 parameter로 구성되어 있기 때문에, overfitting
 - 이미지를 좌우로 대칭시켜, 256×256 size의 이미지에서 224×224 patch를 추출(한 이미지에서 32×32××2=2,048개의 patch를 추출할 수 있다.)
 - test할때는, 이미지의 4개의 모퉁이와 가운데의 patch를 추출(5×2=10)하여, 10개의 softmax를 평균하여 예측한다.
 <p align="center">
-  <img width="500" src="https://imgur.com/62UlbXH.png">
+  <img width="400" src="https://imgur.com/62UlbXH.png">
 </p>
 
 2. Altering the intensities of the RGB channels
 <p align="center">
-  <img width="500" src="https://imgur.com/c0PTB5S.png">
+  <img width="400" src="https://imgur.com/c0PTB5S.png">
 </p>
 - PCA(Principle Component Analysis)를 이용한 color jittering
 
@@ -196,7 +196,7 @@ Alexnet은 6천만개의 parameter로 구성되어 있기 때문에, overfitting
 
 ### 6. Results
 <p align="center">
-  <img width="450" src="https://imgur.com/vJVgsFj.png">
+  <img width="600" src="https://imgur.com/vJVgsFj.png">
 </p>
 ILSVRC-2010, 2012에서 모두 우수한 퍼포먼스를 보여준다.  
 
