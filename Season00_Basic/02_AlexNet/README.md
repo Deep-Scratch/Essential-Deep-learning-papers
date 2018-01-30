@@ -23,11 +23,11 @@
 
 ### 0. Abstract
 <p align="center">
-  <img width="460" height="300" src="https://i.imgur.com/os7hG2Pm.png?1">
+  <img width="400" src="https://i.imgur.com/os7hG2P.png?1">
 </p>
 
-ImageNet LSVRC-2010 학습, 테스트 결과 top-1, top-5 에러가 각각 37.5%와 17.0%로 이전 최신의 방법의 방법보다 좋은 퍼포먼스를 보였다.
-사용된 인공신경망은 5개의 convolutional layer와 3개의 fully-connected layer로 구성되어 있으며, 6천만개의 parameter와 65만개의 뉴런이 사용되었다.
+ImageNet LSVRC-2010 학습, 테스트 결과 top-1, top-5 에러가 각각 37.5%와 17.0%로 이전 최신의 방법보다 좋은 퍼포먼스를 보였다. <br/>
+사용된 인공신경망은 5개의 convolutional layer와 3개의 fully-connected layer로 구성되어 있으며, 6천만개의 parameter와 65만개의 neuron이 사용되었다.
 오버피팅을 줄이기 위해 dropout을 사용하였고, 그 효과가 큼을 증명했다. ImageNet ILSVRC-2012에서 top-5 에러가 15.3%를 달성하며 2등과 꽤 큰 차이를 가졌다. 
 
 ### 1.Introduction
@@ -37,8 +37,11 @@ CNN의 매력적인 성질에도 불구하고, 큰 scale의 고해상도 이미�
 하지만, GPU에 발전으로 ILSVRC-2010, 2012의 데이터셋에서 CNN의 구현이 가능해졌다. 
 
 ### 2. The Dataset
-![figure2](https://i.imgur.com/rWT9YOT.png)
-ImageNet은 22,000 카테고리로 구성된 1,500만개의 고해상도 이미지 데이터셋으로, ILSVRC(ImageNet Large-Scale Visual Recognition Challenge)는 ImageNet 데이터 중, 1,000개의 카테고리만을 사용한다. 
+<p align="center">
+  <img width="400" src="https://i.imgur.com/rWT9YOT.png">
+</p>
+
+ImageNet은 22,000 카테고리로 구성된 1,500만개의 고해상도 이미지 데이터셋으로, ILSVRC(ImageNet Large-Scale Visual Recognition Challenge)는 ImageNet 데이터의 부분으로 1,000개의 카테고리만을 사용한다. 
 120만개의 training data, 5만개의 validation data, 15만개의 test data로 이루어져 있다.
 
 <br/>
@@ -46,23 +49,35 @@ ILSVRC에서는 top-1, top-5 에러를 평가 척도로 사용한다.
 - top-1 : 이미지 하나에 가장 큰 확률을 갖은 예측 label과 실제 label이 맞으면 정답, 이외에는 오답
 - top-5 : 이미지 하나에 가장 큰 5개의 확률을 갖은 예측 label에 실제 label이 포함되면 정답, 이외에는 오답
 
-![figure3](https://i.imgur.com/B05g6Kt.png)
-ImageNet은 여러 스케일의 이미지로 구성되어 있기 때문에 다음과 같은 방식으로 이미지를 256×256 사이즈로 고정하였다.
-1. 이미지에서 짧은 면을 256으로 사이즈를 조정한다.
-2. rescaling된 이미지에서 가온데 만을 추출 (256×256) 
+<p align="center">
+  <img width="250" src="https://imgur.com/B05g6Kt.png">
+</p>
+
+ImageNet은 여러 스케일의 이미지로 구성되어 있기 때문에 다음과 같은 방식으로 이미지를 256×256 사이즈로 고정하였다.<br/>
+1. 이미지에서 짧은 면을 256으로 사이즈를 조정한다. <br/>
+2. rescaling된 이미지에서 가온데 만을 추출 (256×256) <br/>
 
 
 ### 3. The Architecture
-![figure4](https://i.imgur.com/JOS2mHU.png)
+<p align="center">
+  <img width="400" src="https://imgur.com/JOS2mHU.png">
+</p>
+
 5개의 convolutional layer와 3개의 fully-connected layer로 수어
 
+
 #### 3.1 ReLU Nonlinearity
-![figure5](https://i.imgur.com/fUojTVO.png)
-- Sigmoid, tanh 활성화 함수는 saturating nonlinearity로서, gradient vanishing 문제(gradient 손실, -∞, +∞ 에서의 기울기가 0에 가까움)를 야기시킨다. (위의 왼쪽 그래프) 
-- ReLU(Rectified Linear Units)는 non-saturating nonlinearity로서 gradient vanishing을 어느정도 해소하며, tanh 함수에 비해 약 6배나 빠른 속도로 학습한다. (위의 오른쪽 그래프)
+<p align="center">
+  <img width="350" src="https://imgur.com/fUojTVO.png">
+</p>
+- Sigmoid, tanh 활성화 함수는 saturating nonlinearity로서, gradient vanishing 문제(gradient 손실, -∞, +∞ 에서의 기울기가 0에 가까움)를 야기시킨다. (위의 왼쪽 그래프) <br/>
+- ReLU(Rectified Linear Units)는 non-saturating nonlinearity로서 gradient vanishing을 어느정도 해소하며, tanh 함수에 비해 약 6배나 빠른 속도로 학습한다. (위의 오른쪽 그래프) <br/>
 
 #### 3.2 Training on Multiple GPUs
-![figure6](https://i.imgur.com/OA0VmPb.png)
+<p align="center">
+  <img width="400" src="https://imgur.com/OA0VmPb.png">
+</p>
+
 - GPU 2개를 parallelization을 하여 사용. 
 - GPU1은 color-agnostic, GPU2는 color-specific을 주로 학습하였다. 
 - GPU는 parallelization하게 사용되지만, 3번째 convolutional layer에서는 communication을 한다. 
