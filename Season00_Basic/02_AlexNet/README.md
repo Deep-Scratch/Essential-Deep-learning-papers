@@ -22,8 +22,9 @@
 ## 2. 전문 
 
 ### 0. Abstract
-![figure01](https://i.imgur.com/os7hG2Pm.png?1)
-
+<p align="center">
+  <img width="460" height="300" src="https://i.imgur.com/os7hG2Pm.png?1">
+</p>
 
 ImageNet LSVRC-2010 학습, 테스트 결과 top-1, top-5 에러가 각각 37.5%와 17.0%로 이전 최신의 방법의 방법보다 좋은 퍼포먼스를 보였다.
 사용된 인공신경망은 5개의 convolutional layer와 3개의 fully-connected layer로 구성되어 있으며, 6천만개의 parameter와 65만개의 뉴런이 사용되었다.
