@@ -58,6 +58,7 @@ ImageNet은 여러 스케일의 이미지로 구성되어 있기 때문에 다�
 2. rescaling된 이미지에서 가온데 만을 추출 (256×256) <br/>
 
 <br/>
+
 ### 3. The Architecture
 <p align="center">
   <img width="500" src="https://imgur.com/JOS2mHU.png">
@@ -66,6 +67,7 @@ ImageNet은 여러 스케일의 이미지로 구성되어 있기 때문에 다�
 5개의 convolutional layer와 3개의 fully-connected layer로 구성
 
 <br/>
+
 #### 3.1 ReLU Nonlinearity
 <p align="center">
   <img width="400" src="https://imgur.com/fUojTVO.png">
@@ -74,6 +76,7 @@ ImageNet은 여러 스케일의 이미지로 구성되어 있기 때문에 다�
 - ReLU(Rectified Linear Units)는 non-saturating nonlinearity로서 gradient vanishing을 어느정도 해소하며, tanh 함수에 비해 약 6배나 빠른 속도로 학습하여 수렴한다. (위의 오른쪽 그래프) <br/>
 
 <br/>
+
 #### 3.2 Training on Multiple GPUs
 <p align="center">
   <img width="500" src="https://imgur.com/OA0VmPb.png">
@@ -86,6 +89,7 @@ ImageNet은 여러 스케일의 이미지로 구성되어 있기 때문에 다�
 - (Reviewer think) AlexNet이 나온 2012년도에 비해, GPU의 성능이 어마어마하게 좋아졌기 때문에 요즘은 GPU를 parallelization해서 사용하지는 않는것 같다. <br/>
 
 <br/>
+
 #### 3.3 Local Response Normalization
 <p align="center">
   <img width="550" src="https://imgur.com/MkSrmFi.png">
@@ -99,6 +103,7 @@ ImageNet은 여러 스케일의 이미지로 구성되어 있기 때문에 다�
 - (Reviewer think) 최신의 CNN에서는 위와 같은 normalization 대신, batch normalization을 주로 사용한다. 
 
 <br/>
+
 #### 3.4 Overlapping Pooling 
 <p align="center">
   <img width="500" src="https://imgur.com/336CWYI.png">
@@ -108,6 +113,7 @@ ImageNet은 여러 스케일의 이미지로 구성되어 있기 때문에 다�
 - (Reviewer think) 이후의 CNN에서는 주로 Pooling을 겹치지 않으며, 심지어 Pooling layer를 안쓰는 경우도 많다.
 
 <br/>
+
 #### 3.5 Overall Architecture
 <p align="center">
   <img width="600" src="https://imgur.com/zdNsLyR.png">
@@ -138,6 +144,7 @@ ImageNet은 여러 스케일의 이미지로 구성되어 있기 때문에 다�
 Alexnet은 6천만개의 parameter로 구성되어 있기 때문에, overfitting의 가능성이 있다. 이를 위해 크게 2가지 방법을 사용하였다.
 
 <br/>
+
 #### 4.1 Data Augmentation
 <p align="center">
   <img width="600" src="https://imgur.com/NfVN3vd.png">
@@ -156,6 +163,7 @@ Alexnet은 6천만개의 parameter로 구성되어 있기 때문에, overfitting
 - PCA를 이용한 color jittering
 
 <br/>
+
 #### 4.2 Dropout
 <p align="center">
   <img width="450" src="https://imgur.com/cORdgUk.png">
@@ -164,6 +172,7 @@ Alexnet은 6천만개의 parameter로 구성되어 있기 때문에, overfitting
 0.5의 확률로 뉴런을 0으로 셋팅하는 dropout을 시행하여 학습한다. test할때는 모든 뉴런을 사용하지만, 각 출력값에 0.5를 곱하여 사용.
 
 <br/>
+
 ### 5. Details of learning
 - 128 배치 사이즈
 - Stochastic gradient descent, 0.9 momentum, 0.0005 weight decay
@@ -173,6 +182,7 @@ Alexnet은 6천만개의 parameter로 구성되어 있기 때문에, overfitting
 - NVIDIA GTX 580 3GB GPU 사용
 
 <br/>
+
 ### 6. Results
 <p align="center">
   <img width="450" src="https://imgur.com/vJVgsFj.png">
