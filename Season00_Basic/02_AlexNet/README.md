@@ -105,8 +105,8 @@ ImageNet은 여러 스케일의 이미지로 구성되어 있기 때문에 다�
 
 - ReLU는 입력값에 대한 normalization이 필요없다. 
 - 하지만, 출력값이 양수인 경우, 굉장히 큰 값을 갖을 수 있다. 
-- 이를 normalization하기 위해 local Response Normalization을 사용한다.
-- $k, n, \alpha, \beta$는 hyper-parameter이다. 
+- 이를 normalization하기 위해 local response normalization을 사용한다.
+- 이때 사용되는 모수는 haper-parameter이다. 
 - top-1, top-5 에러를 각각 1.4%, 1.2% 상승
 - (Reviewer think) 최신의 CNN에서는 위와 같은 normalization 대신, batch normalization을 주로 사용한다. 
 
@@ -117,7 +117,7 @@ ImageNet은 여러 스케일의 이미지로 구성되어 있기 때문에 다�
   <img width="500" src="https://imgur.com/336CWYI.png">
 </p>
 
-- pooling layer에서 stride($s$)보다 pooling window($z$)를 크게 사용하여, pooling window를 겹쳐서 사용하였다.
+- pooling layer에서 stride보다 pooling window를 크게 사용하여, pooling window를 겹쳐서 사용하였다.
 - top-1, top-5 에러를 각각 0.4%, 0.3% 상승
 - (Reviewer think) 이후의 CNN에서는 주로 Pooling을 겹치지 않으며, 심지어 Pooling layer를 안쓰는 경우도 많다.
 
