@@ -22,7 +22,9 @@
 ## 2. 전문 
 
 ### 0. Abstract
-![figure1](https://i.imgur.com/os7hG2P.png)
+![figure01](https://i.imgur.com/os7hG2Pm.png?1)
+
+
 ImageNet LSVRC-2010 학습, 테스트 결과 top-1, top-5 에러가 각각 37.5%와 17.0%로 이전 최신의 방법의 방법보다 좋은 퍼포먼스를 보였다.
 사용된 인공신경망은 5개의 convolutional layer와 3개의 fully-connected layer로 구성되어 있으며, 6천만개의 parameter와 65만개의 뉴런이 사용되었다.
 오버피팅을 줄이기 위해 dropout을 사용하였고, 그 효과가 큼을 증명했다. ImageNet ILSVRC-2012에서 top-5 에러가 15.3%를 달성하며 2등과 꽤 큰 차이를 가졌다. 
