@@ -8,8 +8,8 @@ source: [FlipGAN curriculum of ModuLabs](http://www.modulabs.co.kr/Flip_GAN/1736
 
 ***2018. 01. 20 ~ 2018. 04. 28***
 
-1. [Generative Adversarial Networks: An Overview](https://arxiv.org/abs/1710.07035) - Antonia Creswell
-    - reviewed by ...
+1. [Auto-Encoding Variational Bayes](https://arxiv.org/pdf/1312.6114.pdf) - Diederik P Kingma
+    - reviewed by [Boseop Kim](https://github.com/aisolab)
 2. [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) - Ian Goodfellow
     - reviewed by ...
 3. [DCGAN: Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434) - Alec Radford
