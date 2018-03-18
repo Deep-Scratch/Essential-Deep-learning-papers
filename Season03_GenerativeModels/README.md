@@ -10,9 +10,10 @@ source: [FlipGAN curriculum of ModuLabs](http://www.modulabs.co.kr/Flip_GAN/1736
 
 1. [Auto-Encoding Variational Bayes](https://arxiv.org/pdf/1312.6114.pdf) - Diederik P Kingma
     - reviewed by [Boseop Kim](https://github.com/aisolab)
-    - [Variational Auto-Encoder.ipynb](https://github.com/Deep-Scratch/Essential-Deep-learning-papers/blob/master/Season03_GenerativeModels/Variational%20Auto-Encoder.ipynb)
+    - [Variational Auto-Encoder.ipynb](https://github.com/Deep-Scratch/Essential-Deep-learning-papers/blob/master/Season03_GenerativeModels/Variational%20Auto-Encoder.ipynb) by [Boseop Kim](https://github.com/aisolab)
 2. [Generative Adversarial Networks](https://arxiv.org/abs/1406.2661) - Ian Goodfellow
-    - reviewed by ...
+    - reviewed by [sungreong Lee](https://github.com/sungreong)
+    - [Generative Adversarial Net.ipynb](https://github.com/Deep-Scratch/Essential-Deep-learning-papers/blob/master/Season03_GenerativeModels/Generative%20Adversarial%20Net.ipynb) by [Boseop Kim](https://github.com/aisolab)
 3. [DCGAN: Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434) - Alec Radford
     - reviewed by ...
 4. [Conditional Generative Adversarial Nets](https://arxiv.org/abs/1411.1784) - Mehdi Mirza
