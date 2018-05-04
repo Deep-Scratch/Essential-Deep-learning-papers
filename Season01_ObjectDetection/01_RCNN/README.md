@@ -5,4 +5,4 @@
 **reviewed by [Gyubin Son](https://github.com/gyubin)**
 **summarized by [Boseop Kim](https://github.com/aisolab)**
 
-<script src = 'https://aisolab.github.io/deep%20learning/2018/05/03/Paper_R-CNN/'>
+<script src="https://gist.github.com/aisolab/46f73657c7fcbec91004708e01a67ba0.js"></script>
