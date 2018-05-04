@@ -10,6 +10,7 @@ Member(10): [Boseop Kim](https://github.com/aisolab), [Daehoon Gwak](https://git
 
 1. [Rich feature hierarchies for accurate object detection and semantic segmentation](https://arxiv.org/abs/1311.2524) - Ross Girshick et al.
     - reviewed by [Gyubin Son](https://github.com/gyubin)
+    - summarized by [Boseop Kim](https://github.com/aisolab)
 2. [Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition](https://arxiv.org/abs/1406.4729) - Kaiming He et al.
     - reviewed by [Seongwon Moon](https://github.com/Moonswng)
     - reviewed by [Boseop Kim](https://github.com/aisolab)
